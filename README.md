@@ -1,8 +1,16 @@
 # carrera-challenge
 
-# when we upload the xy-ground truth, a clever studen would easily learn tracking  which would probably outperform any unsupervised autoencoding
+## cloning repository
 
-# does sb know hot to make separate private data hidden from public?
+- to download the repository including the submodule use:
+git clone --recursive git@github.com:psiori/carrera-challenge.git
 
-# do we want to add tracking-challenge aswell?
+# submissions
 
+## evaluate_encoded_data.ipynb
+- fill the encode(x) function with your method
+
+## model_development.ipynb
+- place to develop your model including optimization and preprocessing
+- illustrate transparently your whole development process
+- do not use ground truth data for optimization, it only serves for supervision
