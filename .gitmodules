@@ -1,0 +1,3 @@
+[submodule "carrera-challenge-internal"]
+	path = carrera-challenge-internal
+	url = git@github.com:psiori/carrera-challenge-internal.git
