@@ -1,5 +1,7 @@
 <div style="text-align:center"><img style="width:30%" src="readme_imgs/psiori.png" /></div>
 
+![alt text](readme_imgs/psiori.png ){width="30%"}
+
 # Topic: Autoencoder
 
 With high-dimensional, complex datasets (e.g. from sensor data like in computer vision), the importance of finding the underlying significant variables increases proportionately.
