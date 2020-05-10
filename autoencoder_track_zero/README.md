@@ -1,6 +1,6 @@
 <div style="text-align:center"><img style="width:100px" src="readme_imgs/psiori.png" /></div>
 
-<img style="width:200px" src="./readme_imgs/psiori.png" />
+<img style="width:200px" src="https://d17blcsvifkhsu.cloudfront.net/sites/5c405183518d8804b82254fb/theme/images/logo-title.svg?1578554598" />
 
 <img style="width:100px" src="./readme_imgs/psiori.png" />
 ![alt text](./readme_imgs/psiori.png | width="30%")
