@@ -32,8 +32,11 @@ The benefit of dimensional reduction in image-to-position mapping is useful espe
 # Submission
 
    1. Development of model in model_development.ipynb
+   
    	- remark: illustrate your whole development process
+   	
    	- remark: do not use ground truth data for optimization, it only serves for supervision enabling you to come up with new models
+   	
    2. Fill encode(x) function with your method in evaluate_encoded_data.ipynb
 
 # Evaluation
