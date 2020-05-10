@@ -1,9 +1,9 @@
 <div style="text-align:center"><img style="width:100px" src="readme_imgs/psiori.png" /></div>
 
-<img style="width:200px" src="readme_imgs/psiori.png" />
+<img style="width:200px" src="./readme_imgs/psiori.png" />
 
-<img style="width:100px" src="readme_imgs/psiori.png" />
-![alt text](readme_imgs/psiori.png | width="30%")
+<img style="width:100px" src="./readme_imgs/psiori.png" />
+![alt text](./readme_imgs/psiori.png | width="30%")
 
 # Topic: Autoencoder
 
