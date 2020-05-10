@@ -1,7 +1,8 @@
 
-<div style="text-align:center">
+
+<center>
 <img width="30%" src="./readme_imgs/psiori.png" />
-</div>
+</center>
 
 # Topic: Autoencoder
 
@@ -9,9 +10,10 @@ With high-dimensional, complex datasets (e.g. from sensor data like in computer 
 Only by encoding the information in fewer dimensions, processing in real time becomes a reality and at the same time, meaningful variables can be extracted.
 An autoencoder is a neural network that finds the underlying distribution using an encoder-decoder architecture where the output is trained to be equal to the input while the information passing through the network is compressed and simplified in an intermediate layer, the so-called bottleneck.
 
-<div style="text-align:center">
+
+<center>
 <img width="50%" src="./readme_imgs/autoencoder_architecture.png" />
-</div>
+<center>
 
 There is a wide range of applications such as noise reduction, semantic hashing and image-to-position mapping.
 
@@ -21,9 +23,9 @@ There is a wide range of applications such as noise reduction, semantic hashing 
 In this specific challenge we provide you with images of an autonomous racing car on a carrera track, which we recorded using a top view camera. These recordings contain high-dimensional vectors, however, a one-dimensional manifold underlies this data.
 We challenge you to encode the images in two or three dimensions by using an autoencoder. As a result you should be able to visualize the one-dimensional manifold.
 
-<div style="text-align:center">
+<center>
 <img width="80%" src="./readme_imgs/autoencoder_challenge.png" />
-</div>
+</center>
 
 The benefit of dimensional reduction in image-to-position mapping is useful especially for advanced tasks such as learning to control the speed of a racing car by using reinforcement learning (Lange, S., Riedmiller, M., & Voigtländer, A., Autonomous reinforcement learning on raw visual input data in a real world application. In Proc. of IJCNN 2012).
 
