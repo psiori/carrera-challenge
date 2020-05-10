@@ -1,8 +1,7 @@
 
 
-<center>
 <img width="30%" src="./readme_imgs/psiori.png" />
-</center>
+
 
 # Topic: Autoencoder
 
@@ -11,9 +10,7 @@ Only by encoding the information in fewer dimensions, processing in real time be
 An autoencoder is a neural network that finds the underlying distribution using an encoder-decoder architecture where the output is trained to be equal to the input while the information passing through the network is compressed and simplified in an intermediate layer, the so-called bottleneck.
 
 
-<center>
 <img width="50%" src="./readme_imgs/autoencoder_architecture.png" />
-<center>
 
 There is a wide range of applications such as noise reduction, semantic hashing and image-to-position mapping.
 
@@ -23,25 +20,24 @@ There is a wide range of applications such as noise reduction, semantic hashing 
 In this specific challenge we provide you with images of an autonomous racing car on a carrera track, which we recorded using a top view camera. These recordings contain high-dimensional vectors, however, a one-dimensional manifold underlies this data.
 We challenge you to encode the images in two or three dimensions by using an autoencoder. As a result you should be able to visualize the one-dimensional manifold.
 
-<center>
 <img width="80%" src="./readme_imgs/autoencoder_challenge.png" />
-</center>
+
 
 The benefit of dimensional reduction in image-to-position mapping is useful especially for advanced tasks such as learning to control the speed of a racing car by using reinforcement learning (Lange, S., Riedmiller, M., & Voigtländer, A., Autonomous reinforcement learning on raw visual input data in a real world application. In Proc. of IJCNN 2012).
 
 # Dataset 
 
 - images (1600, 304, 808, 3): RGB values: [0-255] 
-	-- to be used as sole input data to the neural network
+	- to be used as sole input data to the neural network
 - ranges (1600,): position of the car on the track: [0-2π] 
-	-- to be used in evaluation only
+	- to be used in evaluation only
 
 # Submission
 
-   1. Development of Model in model_development.ipynb
-	! illustrate your whole development process
-	! do not use ground truth data for optimization, it only serves for supervision enabling you to come up with new models
-   2. Fill encode(x) Function with your method in evaluate_encoded_data.ipynb
+   1. Development of model in model_development.ipynb
+	- remark: illustrate your whole development process
+	- remark: do not use ground truth data for optimization, it only serves for supervision enabling you to come up with new models
+   2. Fill encode(x) function with your method in evaluate_encoded_data.ipynb
 
 # Evaluation
 
