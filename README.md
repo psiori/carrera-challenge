@@ -1,7 +1,7 @@
 # carrera-challenge
 
-- [Autoencoder Track Zero](autoencoder_track_zero.md)
-- [Autoencoder Track Infinity](autoencoder_track_zero.md)
+- [Autoencoder Track Zero](autoencoder_track_zero)
+- [Autoencoder Track Infinity](autoencoder_track_zero)
 
 
 Remark: 
