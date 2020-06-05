@@ -18,7 +18,7 @@ There is a wide range of applications such as noise reduction, semantic hashing 
 # Challenge
 
 In this specific challenge we provide you with images of an autonomous racing car on a carrera track, which we recorded using a top view camera. These recordings contain high-dimensional vectors, however, a one-dimensional manifold underlies this data.
-We challenge you to encode the images in two or three dimensions by using an autoencoder. As a result you should be able to visualize the one-dimensional manifold.
+We challenge you to encode the images in three dimensions by using an autoencoder. As a result you should be able to visualize the one-dimensional manifold.
 
 <img width="80%" src="./readme_imgs/autoencoder_challenge.png" />
 

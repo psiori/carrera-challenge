@@ -16,7 +16,7 @@ There is a wide range of applications such as noise reduction, semantic hashing 
 # Challenge
 
 In this specific challenge we provide you with images of an autonomous racing car on a carrera track, which we recorded using a top view camera. These recordings contain high-dimensional vectors, however, a one-dimensional manifold underlies this data.
-We challenge you to encode the images in two or three dimensions by using an autoencoder. As a result you should be able to visualize the one-dimensional manifold.
+We challenge you to encode the images in three dimensions by using an autoencoder. As a result you should be able to visualize the one-dimensional manifold.
 
 <img width="80%" src="./readme_imgs/autoencoder_challenge.png" />
 
@@ -45,6 +45,8 @@ Using the ground truth position data a random forest (max_depth=5, n_estimators=
 The cross validation error of the mapping equals the score. For the final ranking a secret dataset with 400 data points will be used.
 
 We do not provide a baseline for this challenge.
+Our own baseline network achieved an error of 0.6259 on the test set. Preprocessing of the benchmark included scaling and reshaping.
+
 # Prizes
 
 The top three submissions (ranked according to lowest errors on the test set) are awarded prizes of XXX. Another prize of XXX is awarded to the visually best embedding of the testing images, according to the committee’s decision.
