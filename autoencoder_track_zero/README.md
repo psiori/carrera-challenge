@@ -49,9 +49,3 @@ The cross validation error of the mapping equals the score. For the final rankin
 
 Our own baseline network achieved an error of 0.288 on the test set. Preprocessing of the benchmark included scaling and reshaping.
 
-# Prizes
-
-The top three submissions (ranked according to lowest errors on the test set) are awarded prizes of XXX. Another prize of XXX is awarded to the visually best embedding of the testing images, according to the committee’s decision.
-
-Prizes are awarded on XXX.
-Please send your submissions to leonhard@psiori.com
